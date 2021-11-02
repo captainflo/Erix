@@ -2,9 +2,9 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
-const mongoose = require('mongoose');
-const keys = require('./config/keys');
-const cookieSession = require('cookie-session');
+// const mongoose = require('mongoose');
+// const keys = require('./config/keys');
+// const cookieSession = require('cookie-session');
 // const passport = require('passport');
 const cors = require('cors');
 
@@ -16,12 +16,12 @@ app.use(morgan('combined')); /*login server in your terminal */
 app.use(bodyParser.json({ type: '*/*' })); /* used to parse incoming requests */
 
 // Create Cookie Session
-app.use(
-  cookieSession({
-    maxAge: 30 * 24 * 60 * 60 * 1000,
-    keys: [keys.cookieKey],
-  })
-);
+// app.use(
+//   cookieSession({
+//     maxAge: 30 * 24 * 60 * 60 * 1000,
+//     keys: [keys.cookieKey],
+//   })
+// );
 app.use(cors());
 
 // Authentification
@@ -32,10 +32,10 @@ app.use(cors());
 // require('./routes/authRoutes')(app);
 
 // Connect Mongo Atlas
-mongoose.connect(keys.mongoURI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+// mongoose.connect(keys.mongoURI, {
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true,
+// });
 
 if (process.env.NODE_ENV === 'production') {
   // Express will serve up production assets
