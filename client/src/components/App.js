@@ -9,7 +9,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import WelcomeVideo from './utils/WelcomeVideo';
 
 function App() {
-  const [loadingBio, setLoadingBio] = useState(true);
+  const [loadingBio, setLoadingBio] = useState(false);
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoadingBio(true);
