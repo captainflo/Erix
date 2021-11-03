@@ -1,13 +1,16 @@
-import React, { useEffect, useState } from 'react';
-import { connect, useSelector } from 'react-redux';
+import React from 'react';
+import { connect } from 'react-redux';
 import * as actions from '../components/actions';
-import Loading from '../components/utils/Loading';
+import HeroBanner from '../components/utils/HeroBanner';
+import About from '../components/utils/About';
+import Portfolio from '../components/utils/portfolio';
 
 const Welcome = (props) => {
   return (
     <div>
-      <h1>Hello</h1>
-      <div className="row">hello</div>
+      <HeroBanner />
+      <About />
+      <Portfolio />
     </div>
   );
 };

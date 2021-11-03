@@ -4,14 +4,17 @@ const Sidebar = () => {
       <ul id="slide-out" className="sidenav">
         <li>
           <div className="user-view">
-            <div className="background">
-              <img src="images/office.jpg" alt="office" />
+            <div className="background image-sidebar">
+              <img
+                src={process.env.PUBLIC_URL + '/images/banner.png'}
+                alt="office"
+              />
             </div>
             <a href="#user">
-              <img className="circle" src="images/yuna.jpg" alt="circle" />
+              <img className="circle" src="images/Erix.jpeg" alt="circle" />
             </a>
             <a href="#name">
-              <span className="white-text name">John Doe</span>
+              <span className="name white-text">Erix Mercedes</span>
             </a>
             <a href="#email">
               <span className="white-text email">jdandturk@gmail.com</span>
@@ -19,19 +22,11 @@ const Sidebar = () => {
           </div>
         </li>
         <li>
-          <a href="#!">
-            <i className="material-icons">cloud</i>First Link With Icon
-          </a>
-        </li>
-        <li>
-          <a href="#!">Second Link</a>
-        </li>
-        <li>
           <div className="divider"></div>
         </li>
         <li>
           <a className="waves-effect" href="#!">
-            Third Link With Waves
+            Portfolio
           </a>
         </li>
       </ul>

@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'primary-font';
-  src: url('./font/FiraSans-Regular.ttf');
+  src: url('./font/Roboto-Thin.ttf');
 }
 
 body {
@@ -18,4 +18,5 @@ body {
     #000000
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #fff;
+  font-weight: 200;
 }

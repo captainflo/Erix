@@ -1,11 +1,4 @@
-/* Logo */
-.brand-logo img {
-  width: 90px;
-  padding: 5px;
-}
-
-/* Navbar Color */
-nav .nav-wrapper {
+.page-footer {
   background-color: #f1f0f1;
   background: #f1f0f1; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -18,18 +11,5 @@ nav .nav-wrapper {
     #f1f0f1,
     #cecdce
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.animated {
-  animation-fill-mode: initial !important;
-  opacity: 1 !important;
-}
-
-nav ul a {
   color: black !important;
-}
-
-.image-sidebar img {
-  width: 300px;
-  height: 160px;
 }

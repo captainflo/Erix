@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'signature';
+  src: url('../font/AndreaBellarosa.ttf');
+}
+
+.wrapper-about {
+  padding: 10px;
+}
+
+.wrapper-about img {
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.signature {
+  font-family: 'signature';
+  float: right;
+  font-size: 25px;
+}

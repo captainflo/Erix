@@ -1,0 +1,8 @@
+.wrapper-banner {
+  display: block;
+}
+
+.wrapper-banner img {
+  width: 100%;
+  height: 400px;
+}
