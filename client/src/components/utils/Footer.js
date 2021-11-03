@@ -2,13 +2,16 @@ import '../../css/footer.css';
 
 const Footer = () => {
   return (
-    <footer className="page-footer">
+    <footer id="contact" className="page-footer">
       <div className="container">
         <div className="row">
           <div className="col l6 s12">
-            <h5>Footer Content</h5>
-            <p className="">
-              You can use rows and columns here to organize your footer content.
+            <h5>Contact me</h5>
+            <p>
+              <i className="fas fa-envelope"></i> Erix.mer@gmail.com
+            </p>
+            <p>
+              <i className="fas fa-mobile"></i> 917-862-6620
             </p>
           </div>
           <div className="col l4 offset-l2 s12">
@@ -16,22 +19,17 @@ const Footer = () => {
             <ul>
               <li>
                 <a className="" href="#!">
-                  Link 1
+                  <i className="fab fa-instagram"></i>
                 </a>
               </li>
               <li>
                 <a className="" href="#!">
-                  Link 2
+                  <i className="fab fa-facebook-square"></i>
                 </a>
               </li>
               <li>
                 <a className="" href="#!">
-                  Link 3
-                </a>
-              </li>
-              <li>
-                <a className="" href="#!">
-                  Link 4
+                  <i className="fab fa-twitter-square"></i>
                 </a>
               </li>
             </ul>
@@ -39,12 +37,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-copyright">
-        <div className="container text-black">
-          © 2014 Copyright Text
-          <a className="" href="#!">
-            More Links
-          </a>
-        </div>
+        <div className="container">© 2021 Copyright Erix Mercedes</div>
       </div>
     </footer>
   );

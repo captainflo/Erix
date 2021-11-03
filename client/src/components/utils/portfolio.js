@@ -6,7 +6,9 @@ const Portfolio = () => {
     <div className="container">
       <div className="row">
         <Animated animationIn="fadeInDown" animationInDuration={3000}>
-          <h2 className="center">Portfolio</h2>
+          <h2 id="director" className="center">
+            Portfolio
+          </h2>
         </Animated>
         <Video />
       </div>

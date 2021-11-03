@@ -7,9 +7,10 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { BrowserRouter, Route } from 'react-router-dom';
 import WelcomeVideo from './utils/WelcomeVideo';
+import Editor from '../pages/Editor';
 
 function App() {
-  const [loadingBio, setLoadingBio] = useState(false);
+  const [loadingBio, setLoadingBio] = useState(true);
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoadingBio(true);
@@ -24,6 +25,9 @@ function App() {
       edge: 'left',
       inDuration: 250,
     });
+    // ScrollSpy
+    var elems = document.querySelectorAll('.scrollspy');
+    M.ScrollSpy.init(elems, {});
   });
 
   return (
@@ -33,6 +37,7 @@ function App() {
           <>
             <Navbar />
             <Route exact path="/" component={Welcome} />
+            <Route exact path="/editor" component={Editor} />
             <Footer />
           </>
         ) : (

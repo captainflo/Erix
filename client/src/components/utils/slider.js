@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Slider from 'react-slick';
 import '../../css/slider.css';
+import { Animated } from 'react-animated-css';
 
 export default class Video extends Component {
   constructor(props) {
@@ -27,7 +28,6 @@ export default class Video extends Component {
           arrows={false}
         >
           <>
-            <h4>First Slider</h4>
             <div className="wrapper-video">
               <video class="responsive-video video-style" controls>
                 <source
@@ -60,19 +60,23 @@ export default class Video extends Component {
         <Slider
           asNavFor={this.state.nav1}
           ref={(slider) => (this.slider2 = slider)}
-          slidesToShow={3}
+          slidesToShow={4}
           swipeToSlide={true}
           focusOnSelect={true}
         >
           <div className="logo-wrapper">
             <img
               className="responsive-img"
-              src={process.env.PUBLIC_URL + '/images/oscar_logo.png'}
+              src={process.env.PUBLIC_URL + '/images/images.jpeg'}
               alt="logo"
             />
           </div>
-          <div>
-            <h3>2</h3>
+          <div className="logo-wrapper">
+            <img
+              className="responsive-img"
+              src={process.env.PUBLIC_URL + '/images/images.jpeg'}
+              alt="logo"
+            />
           </div>
           <div>
             <h3>3</h3>

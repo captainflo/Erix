@@ -4,16 +4,39 @@
 }
 
 .wrapper-about {
-  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  height: 500px;
 }
 
-.wrapper-about img {
+.wrapper-about-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper-about-img img {
   border-radius: 8px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
+.text-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 0px 40px;
+}
+
 .signature {
   font-family: 'signature';
-  float: right;
+  margin-left: auto;
   font-size: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper-about {
+    height: auto;
+    flex-direction: column;
+  }
 }

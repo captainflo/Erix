@@ -1,3 +1,5 @@
+import { HashLink as Anchor } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 const Sidebar = () => {
   return (
     <>
@@ -25,9 +27,19 @@ const Sidebar = () => {
           <div className="divider"></div>
         </li>
         <li>
-          <a className="waves-effect" href="#!">
-            Portfolio
-          </a>
+          <Anchor className="waves-effect" smooth to="/#director">
+            Director's Portfolio
+          </Anchor>
+        </li>
+        <li>
+          <Link className="waves-effect" smooth to="/editor">
+            Editor's Portfolio
+          </Link>
+        </li>
+        <li>
+          <Anchor className="waves-effect" smooth to="/#contact">
+            Contact
+          </Anchor>
         </li>
       </ul>
       <a href="#?" data-target="slide-out" className="sidenav-trigger">
