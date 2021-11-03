@@ -8,7 +8,8 @@ const Sidebar = () => {
           <div className="user-view">
             <div className="background image-sidebar">
               <img
-                src={process.env.PUBLIC_URL + '/images/banner.png'}
+                className="responsive-img"
+                src={process.env.PUBLIC_URL + '/images/sidebar.png'}
                 alt="office"
               />
             </div>
@@ -27,17 +28,17 @@ const Sidebar = () => {
           <div className="divider"></div>
         </li>
         <li>
-          <Anchor className="waves-effect" smooth to="/#director">
+          <Anchor className="waves-effect" smooth="true" to="/#director">
             Director's Portfolio
           </Anchor>
         </li>
         <li>
-          <Link className="waves-effect" smooth to="/editor">
+          <Link className="waves-effect" smooth="true" to="/editor">
             Editor's Portfolio
           </Link>
         </li>
         <li>
-          <Anchor className="waves-effect" smooth to="/#contact">
+          <Anchor className="waves-effect" smooth="true" to="/#contact">
             Contact
           </Anchor>
         </li>

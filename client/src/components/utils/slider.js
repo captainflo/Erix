@@ -21,7 +21,7 @@ export default class Video extends Component {
 
   render() {
     return (
-      <div>
+      <div className="wrapper-slider">
         <Slider
           asNavFor={this.state.nav2}
           ref={(slider) => (this.slider1 = slider)}
@@ -29,38 +29,112 @@ export default class Video extends Component {
         >
           <>
             <div className="wrapper-video">
-              <video class="responsive-video video-style" controls>
+              <video class=" video-style" controls>
                 <source
-                  src={
-                    process.env.PUBLIC_URL + '/images/EM_Logo_animation.mp4 '
-                  }
+                  src="https://res.cloudinary.com/dwtc6zep7/video/upload/v1635980233/Erix/Than_You_Big_Brother_Spec.mp4"
                   type="video/mp4"
                 />
               </video>
-              <p>Sale Pute</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                mollitia, molestiae quas vel sint commodi repudiandae
+                consequuntur voluptatum laborum numquam blanditiis harum
+                quisquam eius sed odit fugiat iusto fuga praesentium optio,
+                eaque rerum! Provident similique accusantium nemo autem.
+              </p>
             </div>
           </>
-          <div>
-            <h3>2</h3>
-          </div>
-          <div>
-            <h3>3</h3>
-          </div>
-          <div>
-            <h3>4</h3>
-          </div>
-          <div>
-            <h3>5</h3>
-          </div>
-          <div>
-            <h3>6</h3>
-          </div>
+          <>
+            <div className="wrapper-video">
+              <video class=" video-style" controls>
+                <source
+                  src="https://res.cloudinary.com/dwtc6zep7/video/upload/v1635980234/Erix/TERMANA_FINAL_DFFNY_1920x1080.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                mollitia, molestiae quas vel sint commodi repudiandae
+                consequuntur voluptatum laborum numquam blanditiis harum
+                quisquam eius sed odit fugiat iusto fuga praesentium optio,
+                eaque rerum! Provident similique accusantium nemo autem.
+              </p>
+            </div>
+          </>
+          <>
+            <div className="wrapper-video">
+              <video class=" video-style" controls>
+                <source
+                  src="https://res.cloudinary.com/dwtc6zep7/video/upload/v1635980221/Erix/MATCHA_TEA_DRINKERS.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                mollitia, molestiae quas vel sint commodi repudiandae
+                consequuntur voluptatum laborum numquam blanditiis harum
+                quisquam eius sed odit fugiat iusto fuga praesentium optio,
+                eaque rerum! Provident similique accusantium nemo autem.
+              </p>
+            </div>
+          </>
+          <>
+            <div className="wrapper-video">
+              <video class=" video-style" controls>
+                <source
+                  src="https://res.cloudinary.com/dwtc6zep7/video/upload/v1635980221/Erix/PURE_LEAF_COFFEE_LOVER.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                mollitia, molestiae quas vel sint commodi repudiandae
+                consequuntur voluptatum laborum numquam blanditiis harum
+                quisquam eius sed odit fugiat iusto fuga praesentium optio,
+                eaque rerum! Provident similique accusantium nemo autem.
+              </p>
+            </div>
+          </>
+          <>
+            <div className="wrapper-video">
+              <video class=" video-style" controls>
+                <source
+                  src="https://res.cloudinary.com/dwtc6zep7/video/upload/v1635980221/Erix/PURE_LEAF_HEALTH_WELLNESS.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                mollitia, molestiae quas vel sint commodi repudiandae
+                consequuntur voluptatum laborum numquam blanditiis harum
+                quisquam eius sed odit fugiat iusto fuga praesentium optio,
+                eaque rerum! Provident similique accusantium nemo autem.
+              </p>
+            </div>
+          </>
+          <>
+            <div className="wrapper-video">
+              <video class=" video-style" controls>
+                <source
+                  src="https://res.cloudinary.com/dwtc6zep7/video/upload/v1635980221/Erix/PURE_LEAF_BAKING_ENTHUSIAST.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                mollitia, molestiae quas vel sint commodi repudiandae
+                consequuntur voluptatum laborum numquam blanditiis harum
+                quisquam eius sed odit fugiat iusto fuga praesentium optio,
+                eaque rerum! Provident similique accusantium nemo autem.
+              </p>
+            </div>
+          </>
         </Slider>
         {/* Second Slider */}
         <Slider
           asNavFor={this.state.nav1}
           ref={(slider) => (this.slider2 = slider)}
-          slidesToShow={4}
+          slidesToShow={3}
           swipeToSlide={true}
           focusOnSelect={true}
         >
@@ -78,17 +152,33 @@ export default class Video extends Component {
               alt="logo"
             />
           </div>
-          <div>
-            <h3>3</h3>
+          <div className="logo-wrapper">
+            <img
+              className="responsive-img"
+              src={process.env.PUBLIC_URL + '/images/images.jpeg'}
+              alt="logo"
+            />
           </div>
-          <div>
-            <h3>4</h3>
+          <div className="logo-wrapper">
+            <img
+              className="responsive-img"
+              src={process.env.PUBLIC_URL + '/images/images.jpeg'}
+              alt="logo"
+            />
           </div>
-          <div>
-            <h3>5</h3>
+          <div className="logo-wrapper">
+            <img
+              className="responsive-img"
+              src={process.env.PUBLIC_URL + '/images/images.jpeg'}
+              alt="logo"
+            />
           </div>
-          <div>
-            <h3>6</h3>
+          <div className="logo-wrapper">
+            <img
+              className="responsive-img"
+              src={process.env.PUBLIC_URL + '/images/images.jpeg'}
+              alt="logo"
+            />
           </div>
         </Slider>
       </div>

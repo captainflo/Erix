@@ -1,5 +1,10 @@
 .video-style {
+  display: block;
   border-radius: 8px;
+  max-height: 300px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo-wrapper {
@@ -7,4 +12,14 @@
   align-items: center;
   justify-content: center;
   padding: 5px;
+}
+.wrapper-video {
+  display: block;
+  margin-left: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper-slider {
+    padding: 0px 20px;
+  }
 }

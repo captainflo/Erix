@@ -12,7 +12,7 @@ const About = () => {
           <div className="wrapper-about-img">
             <img
               className="responsive-img"
-              src={process.env.PUBLIC_URL + '/images/Erix-profile-1.png'}
+              src={process.env.PUBLIC_URL + '/images/Erix.jpg'}
               alt="logo"
             />
           </div>

@@ -20,7 +20,7 @@ const Navbar = () => {
 
             <ul id="nav-mobile" className="right hide-on-med-and-down">
               <li>
-                <Anchor smooth to="/#director">
+                <Anchor smooth="true" to="/#director">
                   Director's Portfolio
                 </Anchor>
               </li>
@@ -28,7 +28,7 @@ const Navbar = () => {
                 <Link to="/editor">Editor's Portfolio</Link>
               </li>
               <li>
-                <Anchor smooth to="/#contact">
+                <Anchor smooth="true" to="/#contact">
                   Contact
                 </Anchor>
               </li>

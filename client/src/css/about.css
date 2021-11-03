@@ -10,9 +10,7 @@
 }
 
 .wrapper-about-img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: contents;
 }
 
 .wrapper-about-img img {
@@ -28,15 +26,22 @@
   padding: 0px 40px;
 }
 
+.text-about p {
+  font-weight: 900;
+}
+
 .signature {
   font-family: 'signature';
   margin-left: auto;
   font-size: 25px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .wrapper-about {
     height: auto;
     flex-direction: column;
+  }
+  .text-about {
+    padding: 0px 5px;
   }
 }
