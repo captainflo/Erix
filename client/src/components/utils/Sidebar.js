@@ -13,14 +13,14 @@ const Sidebar = () => {
                 alt="office"
               />
             </div>
-            <a href="#user">
+            <a>
               <img className="circle" src="images/Erix.jpeg" alt="circle" />
             </a>
-            <a href="#name">
+            <a>
               <span className="name white-text">Erix Mercedes</span>
             </a>
-            <a href="#email">
-              <span className="white-text email">jdandturk@gmail.com</span>
+            <a>
+              <span className="white-text email">Erix.mer@gmail.com</span>
             </a>
           </div>
         </li>
