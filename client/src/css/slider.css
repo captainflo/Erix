@@ -18,6 +18,11 @@
   margin-left: auto;
 }
 
+.title-portfolio {
+  font-weight: bold;
+  font-size: 16px;
+}
+
 @media only screen and (max-width: 600px) {
   .wrapper-slider {
     padding: 0px 20px;

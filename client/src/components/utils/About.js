@@ -9,6 +9,7 @@ const About = () => {
         <h2 className="center">Who is Erix Mercedes</h2>
         {/* About */}
         <div className="wrapper-about">
+          {/* <div className="wrapper-about-parent-img"> */}
           <div className="wrapper-about-img">
             <img
               className="responsive-img"
@@ -16,6 +17,7 @@ const About = () => {
               alt="logo"
             />
           </div>
+          {/* </div> */}
 
           <div className="text-about">
             <p>

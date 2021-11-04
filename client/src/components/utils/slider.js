@@ -35,12 +35,37 @@ export default class Video extends Component {
                   type="video/mp4"
                 />
               </video>
+              <h6 className="title-portfolio">Thank you big brother</h6>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur voluptatum laborum numquam blanditiis harum
-                quisquam eius sed odit fugiat iusto fuga praesentium optio,
-                eaque rerum! Provident similique accusantium nemo autem.
+                I created this spec commercial for national siblings day.
+                Inspired by Derrick Rose' signature sneakers. Derrick is an
+                athlete that always gives thanks to his older siblings. We
+                sometimes forget the sacrifices our brothers and sisters give in
+                order to invest in our own goals.
+              </p>
+            </div>
+          </>
+          <>
+            <div className="wrapper-video">
+              <video class=" video-style" controls>
+                <source
+                  src="https://res.cloudinary.com/dwtc6zep7/video/upload/v1635981760/Erix/11092016_JRW_Trailer_v2.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <h6 className="title-portfolio">Jackie Robinson west</h6>
+
+              <p>
+                Immersing the viewer in Southside Chicago, Jackie Robinson West
+                follows the buildup and backlash of the team's exciting run by
+                examining conﬂicting perspectives. Two opposing views of the
+                success of the team create a conﬂict that challenges and
+                embodies the issues of race relations, youth sports, and
+                assumptions of character. The ﬁlm joins the party as parents,
+                coaches, and players gather around a team that bursts out from
+                the violence in its neighborhoods and becomes the pride of
+                Chicago only to see it all come crashing down with allegations
+                of illegal recruitment that would revoke their title.
               </p>
             </div>
           </>
@@ -52,12 +77,11 @@ export default class Video extends Component {
                   type="video/mp4"
                 />
               </video>
+              <h6 className="title-portfolio"> Fathers day spec ( Teremana)</h6>
+
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi repudiandae
-                consequuntur voluptatum laborum numquam blanditiis harum
-                quisquam eius sed odit fugiat iusto fuga praesentium optio,
-                eaque rerum! Provident similique accusantium nemo autem.
+                A US Marine Vet gives thanks to his mentor after stepping up to
+                the plate when his father passed away.
               </p>
             </div>
           </>
@@ -138,6 +162,13 @@ export default class Video extends Component {
           swipeToSlide={true}
           focusOnSelect={true}
         >
+          <div className="logo-wrapper">
+            <img
+              className="responsive-img"
+              src={process.env.PUBLIC_URL + '/images/images.jpeg'}
+              alt="logo"
+            />
+          </div>
           <div className="logo-wrapper">
             <img
               className="responsive-img"
