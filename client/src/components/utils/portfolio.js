@@ -7,7 +7,7 @@ const Portfolio = () => {
       <div className="row">
         <Animated animationIn="fadeInDown" animationInDuration={3000}>
           <h2 id="director" className="center">
-            Portfolio
+            Director's Portfolio
           </h2>
         </Animated>
         <Video />

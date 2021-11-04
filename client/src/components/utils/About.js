@@ -6,7 +6,7 @@ const About = () => {
     <div className="container">
       <Animated animationIn="fadeInUp" animationInDuration={3000}>
         {/* Title */}
-        <h2 className="center">Who is Erix Mercedes</h2>
+        <h2 className="center">About me</h2>
         {/* About */}
         <div className="wrapper-about">
           {/* <div className="wrapper-about-parent-img"> */}

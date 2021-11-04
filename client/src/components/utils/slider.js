@@ -31,6 +31,7 @@ export default class Video extends Component {
             <div className="wrapper-video">
               <video class=" video-style" controls>
                 <source
+                  poster="https://res.cloudinary.com/dwtc6zep7/image/upload/v1635981735/Erix/Thank_you_big_brother_2021_Oficcial_Selction_CISF.png"
                   src="https://res.cloudinary.com/dwtc6zep7/video/upload/v1635980233/Erix/Than_You_Big_Brother_Spec.mp4"
                   type="video/mp4"
                 />

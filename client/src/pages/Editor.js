@@ -38,7 +38,7 @@ const Editor = () => {
     {
       title: 'Suave_for_men_shampoo',
       video:
-        'https://res.cloudinary.com/dwtc6zep7/video/upload/v1636038873/Erix/editor/Suave_for_men_shampoo.mp44',
+        'https://res.cloudinary.com/dwtc6zep7/video/upload/v1636038873/Erix/editor/Suave_for_men_shampoo.mp4',
     },
     {
       title: 'Adidas_Prism',
@@ -50,10 +50,36 @@ const Editor = () => {
       video:
         'https://res.cloudinary.com/dwtc6zep7/video/upload/v1636038873/Erix/editor/Magnum_Icrecream.mp4',
     },
-    { title: 'video3', video: 'EM_Logo_animation.mp4' },
-    { title: 'video3', video: 'EM_Logo_animation.mp4' },
-    { title: 'video3', video: 'EM_Logo_animation.mp4' },
-    { title: 'video3', video: 'EM_Logo_animation.mp4' },
+    {
+      title: 'Degree_deo_wipes',
+      video:
+        'https://res.cloudinary.com/dwtc6zep7/video/upload/v1636038872/Erix/editor/Degree_deo_wipes.mp4',
+    },
+    {
+      title: 'Dove_deo_Wipes',
+      video:
+        'https://res.cloudinary.com/dwtc6zep7/video/upload/v1636038871/Erix/editor/Dove_deo_Wipes.mp4',
+    },
+    {
+      title: 'pure_leaf_iced_tea',
+      video:
+        'https://res.cloudinary.com/dwtc6zep7/video/upload/v1636038871/Erix/editor/pure_leaf_iced_tea.mp4',
+    },
+    {
+      title: 'Dove_men_deo_wipes',
+      video:
+        'https://res.cloudinary.com/dwtc6zep7/video/upload/v1636038871/Erix/editor/Dove_men_deo_wipes.mp4',
+    },
+    {
+      title: 'degre_women_deo_wipes',
+      video:
+        'https://res.cloudinary.com/dwtc6zep7/video/upload/v1636038871/Erix/editor/degre_women_deo_wipes.mp4',
+    },
+    {
+      title: 'Dove_deo_wipes_2',
+      video:
+        'https://res.cloudinary.com/dwtc6zep7/video/upload/v1636038871/Erix/editor/Dove_deo_wipes_2.mp4',
+    },
   ];
 
   const renderVideo = medias.map((media, i) => {

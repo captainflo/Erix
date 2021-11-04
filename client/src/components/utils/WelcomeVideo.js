@@ -4,7 +4,7 @@ const WelcomeVideo = () => {
       <div
         dangerouslySetInnerHTML={{
           __html: `
-    <video class="video-js" playsinline autoplay loop muted>
+    <video class="video-js responsive-video" playsinline autoplay loop muted>
         <source src=${
           process.env.PUBLIC_URL + '/images/EM_Logo_animation.mp4'
         } type="video/mp4"/>
