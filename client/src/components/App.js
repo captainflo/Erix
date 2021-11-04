@@ -33,8 +33,8 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Route exact path="/" component={WelcomeVideo} />
-        {/* {loadingBio ? (
+        {/* <Route exact path="/" component={WelcomeVideo} /> */}
+        {loadingBio ? (
           <>
             <Navbar />
             <Route exact path="/" component={Welcome} />
@@ -43,7 +43,7 @@ function App() {
           </>
         ) : (
           <Route exact path="/" component={WelcomeVideo} />
-        )} */}
+        )}
       </BrowserRouter>
     </>
   );
