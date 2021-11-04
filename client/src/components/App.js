@@ -33,7 +33,6 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        {/* <Route exact path="/" component={WelcomeVideo} /> */}
         {loadingBio ? (
           <>
             <Navbar />

@@ -85,8 +85,8 @@ const Editor = () => {
   const renderVideo = medias.map((media, i) => {
     return (
       <div key={i}>
-        <video class="responsive-video" controls>
-          <source src={media.video} type="video/mp4" />
+        <video class="responsive-video" preload="metadata" controls>
+          <source src={media.video + '#t=0.2'} type="video/mp4" />
         </video>
       </div>
     );
