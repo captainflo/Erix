@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import '../css/editor.css';
 import Masonry from 'react-masonry-css';
+import Loading from '../components/utils/Loading';
 const Editor = () => {
   const breakpointColumnsObj = {
     default: 4,
@@ -82,6 +83,14 @@ const Editor = () => {
     },
   ];
 
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(true);
+    }, 1000);
+    return () => clearTimeout(timer);
+  }, []);
+
   const renderVideo = medias.map((media, i) => {
     return (
       <div key={i}>
@@ -93,13 +102,19 @@ const Editor = () => {
   });
 
   return (
-    <Masonry
-      breakpointCols={breakpointColumnsObj}
-      className="my-masonry-grid"
-      columnClassName="my-masonry-grid_column"
-    >
-      {renderVideo}
-    </Masonry>
+    <>
+      {loading ? (
+        <Masonry
+          breakpointCols={breakpointColumnsObj}
+          className="my-masonry-grid"
+          columnClassName="my-masonry-grid_column"
+        >
+          {renderVideo}
+        </Masonry>
+      ) : (
+        <Loading />
+      )}
+    </>
   );
 };
 

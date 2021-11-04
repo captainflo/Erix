@@ -23,8 +23,19 @@
   font-size: 16px;
 }
 
+.wrapper-slider-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+  height: 60px;
+}
+
 @media only screen and (max-width: 600px) {
   .wrapper-slider {
     padding: 0px 20px;
+  }
+  .wrapper-video img {
+    height: 25px !important;
   }
 }
