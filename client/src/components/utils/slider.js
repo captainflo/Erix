@@ -25,7 +25,7 @@ export default class Video extends Component {
         <Slider
           asNavFor={this.state.nav2}
           ref={(slider) => (this.slider1 = slider)}
-          arrows={false}
+          arrows={true}
         >
           <>
             <div className="wrapper-video">
@@ -153,64 +153,6 @@ export default class Video extends Component {
               </p>
             </div>
           </>
-        </Slider>
-        {/* Second Slider */}
-        <Slider
-          asNavFor={this.state.nav1}
-          ref={(slider) => (this.slider2 = slider)}
-          slidesToShow={3}
-          swipeToSlide={true}
-          focusOnSelect={true}
-        >
-          <div className="logo-wrapper">
-            <img
-              className="responsive-img"
-              src={process.env.PUBLIC_URL + '/images/images.jpeg'}
-              alt="logo"
-            />
-          </div>
-          <div className="logo-wrapper">
-            <img
-              className="responsive-img"
-              src={process.env.PUBLIC_URL + '/images/images.jpeg'}
-              alt="logo"
-            />
-          </div>
-          <div className="logo-wrapper">
-            <img
-              className="responsive-img"
-              src={process.env.PUBLIC_URL + '/images/images.jpeg'}
-              alt="logo"
-            />
-          </div>
-          <div className="logo-wrapper">
-            <img
-              className="responsive-img"
-              src={process.env.PUBLIC_URL + '/images/images.jpeg'}
-              alt="logo"
-            />
-          </div>
-          <div className="logo-wrapper">
-            <img
-              className="responsive-img"
-              src={process.env.PUBLIC_URL + '/images/images.jpeg'}
-              alt="logo"
-            />
-          </div>
-          <div className="logo-wrapper">
-            <img
-              className="responsive-img"
-              src={process.env.PUBLIC_URL + '/images/images.jpeg'}
-              alt="logo"
-            />
-          </div>
-          <div className="logo-wrapper">
-            <img
-              className="responsive-img"
-              src={process.env.PUBLIC_URL + '/images/images.jpeg'}
-              alt="logo"
-            />
-          </div>
         </Slider>
       </div>
     );

@@ -10,8 +10,49 @@ const Editor = () => {
   };
 
   const medias = [
-    { title: 'video1', video: 'EM_Logo_animation.mp4' },
-    { title: 'video2', video: 'IMG_8475.mp4' },
+    {
+      title: 'Adidas_prism_Aaron_Judge',
+      video:
+        'https://res.cloudinary.com/dwtc6zep7/video/upload/v1636038875/Erix/editor/Adidas_prism_Aaron_Judge.mp4',
+    },
+    {
+      title: 'St.ives_face_mist',
+      video:
+        'https://res.cloudinary.com/dwtc6zep7/video/upload/v1636038874/Erix/editor/St.ives_face_mist.mp4',
+    },
+    {
+      title: 'Gelato',
+      video:
+        'https://res.cloudinary.com/dwtc6zep7/video/upload/v1636038875/Erix/editor/Gelato.mp4',
+    },
+    {
+      title: 'Adidas_prism__Fernandos_tati',
+      video:
+        'https://res.cloudinary.com/dwtc6zep7/video/upload/v1636038874/Erix/editor/Adidas_prism__Fernandos_tati.mp4',
+    },
+    {
+      title: 'Axe_pomade',
+      video:
+        'https://res.cloudinary.com/dwtc6zep7/video/upload/v1636038873/Erix/editor/Axe_pomade.mp4',
+    },
+    {
+      title: 'Suave_for_men_shampoo',
+      video:
+        'https://res.cloudinary.com/dwtc6zep7/video/upload/v1636038873/Erix/editor/Suave_for_men_shampoo.mp44',
+    },
+    {
+      title: 'Adidas_Prism',
+      video:
+        'https://res.cloudinary.com/dwtc6zep7/video/upload/v1636038873/Erix/editor/Adidas_Prism.mp4',
+    },
+    {
+      title: 'Magnum_Icrecream',
+      video:
+        'https://res.cloudinary.com/dwtc6zep7/video/upload/v1636038873/Erix/editor/Magnum_Icrecream.mp4',
+    },
+    { title: 'video3', video: 'EM_Logo_animation.mp4' },
+    { title: 'video3', video: 'EM_Logo_animation.mp4' },
+    { title: 'video3', video: 'EM_Logo_animation.mp4' },
     { title: 'video3', video: 'EM_Logo_animation.mp4' },
   ];
 
@@ -19,10 +60,7 @@ const Editor = () => {
     return (
       <div key={i}>
         <video class="responsive-video" controls>
-          <source
-            src={process.env.PUBLIC_URL + `/images/${media.video}`}
-            type="video/mp4"
-          />
+          <source src={media.video} type="video/mp4" />
         </video>
       </div>
     );
