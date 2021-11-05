@@ -31,7 +31,7 @@ export default class Video extends Component {
             <div className="wrapper-video">
               <video class="video-style" preload="metadata" controls>
                 <source
-                  src="https://res.cloudinary.com/erix-mercedes-llc/video/upload/v1636129766/director/Than_You_Big_Brother_Spec_sxsgfx.mp4#t=0.2"
+                  src="https://www.youtube.com/watch?v=VQOaP9IeSpk&ab_channel=CBSSportsGolazo#t=0.2"
                   type="video/mp4"
                 />
               </video>
