@@ -83,13 +83,13 @@ const Editor = () => {
     },
   ];
 
-  // const [loading, setLoading] = useState(false);
-  // useEffect(() => {
-  //   const timer = setTimeout(() => {
-  //     setLoading(true);
-  //   }, 1000);
-  //   return () => clearTimeout(timer);
-  // }, [timer]);
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+    return () => clearTimeout(timer);
+  }, []);
 
   const renderVideo = medias.map((media, i) => {
     return (
@@ -103,6 +103,7 @@ const Editor = () => {
 
   return (
     <>
+      {loading ? <Loading /> : ''}
       <Masonry
         breakpointCols={breakpointColumnsObj}
         className="my-masonry-grid"

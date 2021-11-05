@@ -5,11 +5,11 @@ const Portfolio = () => {
   return (
     <div className="container">
       <div className="row">
-        <Animated animationIn="fadeInDown" animationInDuration={3000}>
-          <h2 id="director" className="center">
-            Director's Portfolio
-          </h2>
-        </Animated>
+        {/* <Animated animationIn="fadeInDown" animationInDuration={3000}> */}
+        <h2 id="director" className="center">
+          Director's Portfolio
+        </h2>
+        {/* </Animated> */}
         <Video />
       </div>
     </div>

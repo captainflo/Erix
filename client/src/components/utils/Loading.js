@@ -1,10 +1,19 @@
+import '../../css/loding.css';
+
 const Loading = () => {
   return (
-    <div className=" ">
-      <div className="d-flex justify-content-center">
-        <h2>Loading...</h2>
-        <div className="spinner-border" role="status">
-          <span className="sr-only">Loading...</span>
+    <div class="overlay">
+      <div class="preloader-wrapper big active">
+        <div class="spinner-layer spinner-blue-only">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div>
+          <div class="gap-patch">
+            <div class="circle"></div>
+          </div>
+          <div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
         </div>
       </div>
     </div>
