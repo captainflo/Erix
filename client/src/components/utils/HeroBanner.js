@@ -1,5 +1,5 @@
 import '../../css/heroBanner.css';
-import { Animated } from 'react-animated-css';
+// import { Animated } from 'react-animated-css';
 
 const HeroBanner = () => {
   return (

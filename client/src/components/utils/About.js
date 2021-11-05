@@ -1,4 +1,4 @@
-import { Animated } from 'react-animated-css';
+// import { Animated } from 'react-animated-css';
 import '../../css/about.css';
 
 const About = () => {

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Slider from 'react-slick';
 import '../../css/slider.css';
-import { Animated } from 'react-animated-css';
+// import { Animated } from 'react-animated-css';
 
 export default class Video extends Component {
   constructor(props) {
@@ -29,9 +29,12 @@ export default class Video extends Component {
         >
           <>
             <div className="wrapper-video">
-              <video class="video-style" preload="metadata" controls>
+              <video className="video-style" controls>
                 <source
-                  src="https://www.youtube.com/watch?v=VQOaP9IeSpk&ab_channel=CBSSportsGolazo#t=0.2"
+                  src={
+                    process.env.PUBLIC_URL +
+                    '/images/director/Than_You_Big_Brother_Spec.mp4'
+                  }
                   type="video/mp4"
                 />
               </video>
@@ -80,9 +83,9 @@ export default class Video extends Component {
           </>
           <>
             <div className="wrapper-video">
-              <video class=" video-style" preload="metadata" controls>
+              <video className=" video-style" controls>
                 <source
-                  src="https://res.cloudinary.com/erix-mercedes-llc/video/upload/v1636129767/director/11092016_JRW_Trailer_v2_h6ww6g.mp4#t=1"
+                  src={process.env.PUBLIC_URL + '/images/director/JRW.mp4#t=1'}
                   type="video/mp4"
                 />
               </video>
@@ -104,9 +107,12 @@ export default class Video extends Component {
           </>
           <>
             <div className="wrapper-video">
-              <video class=" video-style" preload="metadata" controls>
+              <video className=" video-style" controls>
                 <source
-                  src="https://res.cloudinary.com/erix-mercedes-llc/video/upload/v1636129763/director/TERMANA_FINAL_DFFNY_1920x1080_zpnghe.mp4#t=0.2"
+                  src={
+                    process.env.PUBLIC_URL +
+                    '/images/director/TERMANA_FINAL_DFFNY_1920x1080.mp4#t=0.2'
+                  }
                   type="video/mp4"
                 />
               </video>
@@ -126,9 +132,12 @@ export default class Video extends Component {
           </>
           <>
             <div className="wrapper-video">
-              <video class=" video-style" preload="metadata" controls>
+              <video className=" video-style" controls>
                 <source
-                  src="https://res.cloudinary.com/erix-mercedes-llc/video/upload/v1636129763/director/PURE_LEAF_HEALTH_WELLNESS_as3drd.mp4#t=0.2"
+                  src={
+                    process.env.PUBLIC_URL +
+                    '/images/director/PURE-LEAF-HEALTH-WELLNESS.mp4#t=0.2'
+                  }
                   type="video/mp4"
                 />
               </video>
@@ -143,9 +152,12 @@ export default class Video extends Component {
           </>
           <>
             <div className="wrapper-video">
-              <video class=" video-style" preload="metadata" controls>
+              <video className=" video-style" controls>
                 <source
-                  src="https://res.cloudinary.com/erix-mercedes-llc/video/upload/v1636129762/director/MATCHA_TEA_DRINKERS_ztw5hn.mp4#t=0.2"
+                  src={
+                    process.env.PUBLIC_URL +
+                    '/images/director/MATCHA_TEA_DRINKERS.mp4#t=0.2'
+                  }
                   type="video/mp4"
                 />
               </video>
@@ -160,9 +172,12 @@ export default class Video extends Component {
           </>
           <>
             <div className="wrapper-video">
-              <video class=" video-style" preload="metadata" controls>
+              <video className=" video-style" controls>
                 <source
-                  src="https://res.cloudinary.com/erix-mercedes-llc/video/upload/v1636129762/director/PURE_LEAF_COFFEE_LOVER_u6q1nm.mp4#t=0.2"
+                  src={
+                    process.env.PUBLIC_URL +
+                    '/images/director/PURE_LEAF_COFFEE_LOVER.mp4#t=0.2'
+                  }
                   type="video/mp4"
                 />
               </video>
@@ -177,9 +192,12 @@ export default class Video extends Component {
           </>
           <>
             <div className="wrapper-video">
-              <video class=" video-style" preload="metadata" controls>
+              <video className=" video-style" controls>
                 <source
-                  src="https://res.cloudinary.com/erix-mercedes-llc/video/upload/v1636129761/director/PURE_LEAF_BAKING_ENTHUSIAST_ttr5va.mp4#t=0.2"
+                  src={
+                    process.env.PUBLIC_URL +
+                    '/images/director/PURE_LEAF_BAKING_ENTHUSIAST.mp4#t=0.2'
+                  }
                   type="video/mp4"
                 />
               </video>

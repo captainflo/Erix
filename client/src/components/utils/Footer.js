@@ -24,6 +24,7 @@ const Footer = () => {
               <li>
                 <a
                   className="link-social"
+                  rel="noreferrer"
                   href="https://www.linkedin.com/in/erix-mercedes-a3012941/"
                   target="_blank"
                 >
@@ -34,6 +35,7 @@ const Footer = () => {
                 <a
                   className="link-social"
                   target="_blank"
+                  rel="noreferrer"
                   href="https://www.instagram.com/erix_mercedes/"
                 >
                   <i className="fab fa-instagram"></i>
@@ -44,6 +46,7 @@ const Footer = () => {
                   className="link-social"
                   href="https://twitter.com/Erix_mercedes"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i className="fab fa-twitter-square"></i>
                 </a>
