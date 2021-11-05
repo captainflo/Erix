@@ -10,7 +10,7 @@ import WelcomeVideo from './utils/WelcomeVideo';
 import Editor from '../pages/Editor';
 
 function App() {
-  const [loadingBio, setLoadingBio] = useState(false);
+  const [loadingBio, setLoadingBio] = useState(true);
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoadingBio(true);
