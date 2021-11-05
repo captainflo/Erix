@@ -33,7 +33,7 @@ export default class Video extends Component {
                 <source
                   src={
                     process.env.PUBLIC_URL +
-                    '/images/director/Than_You_Big_Brother_Spec.mp4'
+                    '/images/director/Than_You_Big_Brother_Spec.mp4#t=0.2'
                   }
                   type="video/mp4"
                 />
