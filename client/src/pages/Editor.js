@@ -14,82 +14,82 @@ const Editor = () => {
     {
       title: 'Adidas_prism_Aaron_Judge',
       video:
-        'https://res.cloudinary.com/dwtc6zep7/video/upload/v1636038875/Erix/editor/Adidas_prism_Aaron_Judge.mp4',
+        'https://res.cloudinary.com/erix-mercedes-llc/video/upload/v1636129774/editor/Adidas_prism_Aaron_Judge_ms5jaa.mp4',
     },
     {
       title: 'St.ives_face_mist',
       video:
-        'https://res.cloudinary.com/dwtc6zep7/video/upload/v1636038874/Erix/editor/St.ives_face_mist.mp4',
+        'https://res.cloudinary.com/erix-mercedes-llc/video/upload/v1636129774/editor/St.ives_face_mist_zsfywg.mp4',
     },
     {
       title: 'Gelato',
       video:
-        'https://res.cloudinary.com/dwtc6zep7/video/upload/v1636038875/Erix/editor/Gelato.mp4',
+        'https://res.cloudinary.com/erix-mercedes-llc/video/upload/v1636129771/editor/Gelato_xlgz2m.mp4',
     },
     {
       title: 'Adidas_prism__Fernandos_tati',
       video:
-        'https://res.cloudinary.com/dwtc6zep7/video/upload/v1636038874/Erix/editor/Adidas_prism__Fernandos_tati.mp4',
+        'https://res.cloudinary.com/erix-mercedes-llc/video/upload/v1636129774/editor/Adidas_prism__Fernandos_tati_dt1m15.mp4',
     },
     {
       title: 'Axe_pomade',
       video:
-        'https://res.cloudinary.com/dwtc6zep7/video/upload/v1636038873/Erix/editor/Axe_pomade.mp4',
+        'https://res.cloudinary.com/erix-mercedes-llc/video/upload/v1636129772/editor/Axe_pomade_aa0lqi.mp4',
     },
     {
       title: 'Suave_for_men_shampoo',
       video:
-        'https://res.cloudinary.com/dwtc6zep7/video/upload/v1636038873/Erix/editor/Suave_for_men_shampoo.mp4',
+        'https://res.cloudinary.com/erix-mercedes-llc/video/upload/v1636129772/editor/Suave_for_men_shampoo_p0m8bu.mp4',
     },
     {
       title: 'Adidas_Prism',
       video:
-        'https://res.cloudinary.com/dwtc6zep7/video/upload/v1636038873/Erix/editor/Adidas_Prism.mp4',
+        'https://res.cloudinary.com/erix-mercedes-llc/video/upload/v1636129773/editor/Adidas_Prism_qcucmt.mp4',
     },
     {
       title: 'Magnum_Icrecream',
       video:
-        'https://res.cloudinary.com/dwtc6zep7/video/upload/v1636038873/Erix/editor/Magnum_Icrecream.mp4',
+        'https://res.cloudinary.com/erix-mercedes-llc/video/upload/v1636129771/editor/Magnum_Icrecream_csxgwb.mp4',
     },
     {
       title: 'Degree_deo_wipes',
       video:
-        'https://res.cloudinary.com/dwtc6zep7/video/upload/v1636038872/Erix/editor/Degree_deo_wipes.mp4',
+        'https://res.cloudinary.com/erix-mercedes-llc/video/upload/v1636129772/editor/Degree_deo_wipes_msbiam.mp4',
     },
     {
       title: 'Dove_deo_Wipes',
       video:
-        'https://res.cloudinary.com/dwtc6zep7/video/upload/v1636038871/Erix/editor/Dove_deo_Wipes.mp4',
+        'https://res.cloudinary.com/erix-mercedes-llc/video/upload/v1636129775/editor/Dove_deo_Wipes_epdzhg.mp4',
     },
     {
       title: 'pure_leaf_iced_tea',
       video:
-        'https://res.cloudinary.com/dwtc6zep7/video/upload/v1636038871/Erix/editor/pure_leaf_iced_tea.mp4',
+        'https://res.cloudinary.com/erix-mercedes-llc/video/upload/v1636129772/editor/pure_leaf_iced_tea_kfhjht.mp4',
     },
     {
       title: 'Dove_men_deo_wipes',
       video:
-        'https://res.cloudinary.com/dwtc6zep7/video/upload/v1636038871/Erix/editor/Dove_men_deo_wipes.mp4',
+        'https://res.cloudinary.com/erix-mercedes-llc/video/upload/v1636129771/editor/Dove_men_deo_wipes_trpr1j.mp4',
     },
     {
       title: 'degre_women_deo_wipes',
       video:
-        'https://res.cloudinary.com/dwtc6zep7/video/upload/v1636038871/Erix/editor/degre_women_deo_wipes.mp4',
+        'https://res.cloudinary.com/erix-mercedes-llc/video/upload/v1636129771/editor/degre_women_deo_wipes_agkjpz.mp4',
     },
     {
       title: 'Dove_deo_wipes_2',
       video:
-        'https://res.cloudinary.com/dwtc6zep7/video/upload/v1636038871/Erix/editor/Dove_deo_wipes_2.mp4',
+        'https://res.cloudinary.com/erix-mercedes-llc/video/upload/v1636129771/editor/Dove_deo_wipes_2_msedac.mp4',
     },
   ];
 
-  const [loading, setLoading] = useState(false);
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoading(true);
-    }, 1000);
-    return () => clearTimeout(timer);
-  }, []);
+  // const [loading, setLoading] = useState(false);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setLoading(true);
+  //   }, 1000);
+  //   return () => clearTimeout(timer);
+  // }, [timer]);
 
   const renderVideo = medias.map((media, i) => {
     return (
@@ -103,17 +103,13 @@ const Editor = () => {
 
   return (
     <>
-      {loading ? (
-        <Masonry
-          breakpointCols={breakpointColumnsObj}
-          className="my-masonry-grid"
-          columnClassName="my-masonry-grid_column"
-        >
-          {renderVideo}
-        </Masonry>
-      ) : (
-        <Loading />
-      )}
+      <Masonry
+        breakpointCols={breakpointColumnsObj}
+        className="my-masonry-grid"
+        columnClassName="my-masonry-grid_column"
+      >
+        {renderVideo}
+      </Masonry>
     </>
   );
 };

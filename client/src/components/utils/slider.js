@@ -31,40 +31,39 @@ export default class Video extends Component {
             <div className="wrapper-video">
               <video class="video-style" preload="metadata" controls>
                 <source
-                  poster="https://res.cloudinary.com/dwtc6zep7/image/upload/v1635981735/Erix/Thank_you_big_brother_2021_Oficcial_Selction_CISF.png"
-                  src="https://res.cloudinary.com/dwtc6zep7/video/upload/v1635980233/Erix/Than_You_Big_Brother_Spec.mp4#t=0.2"
+                  src="https://res.cloudinary.com/erix-mercedes-llc/video/upload/v1636129766/director/Than_You_Big_Brother_Spec_sxsgfx.mp4#t=0.2"
                   type="video/mp4"
                 />
               </video>
               <div className="wrapper-slider-img">
                 <img
                   className="responsive-img"
-                  src="https://res.cloudinary.com/dwtc6zep7/image/upload/v1635981735/Erix/Thank_you_big_brother_2021_Oficcial_Selction_CISF.png"
+                  src="https://res.cloudinary.com/erix-mercedes-llc/image/upload/v1636129761/director/Thank_you_big_brother_2021_Oficcial_Selction_CISF-min_qzrrjr.png"
                   alt="office"
                 />
                 <img
                   className="responsive-img"
-                  src="https://res.cloudinary.com/dwtc6zep7/image/upload/v1635981735/Erix/thank_you_big_brother_Colorful-version-Merit-SP-1024x543.png"
+                  src="https://res.cloudinary.com/erix-mercedes-llc/image/upload/v1636129761/director/Thank_you_big_brother_2021_Honorable_Mention_CISF-min_jnzehw.png"
                   alt="office"
                 />
                 <img
                   className="responsive-img"
-                  src="https://res.cloudinary.com/dwtc6zep7/image/upload/v1635981729/Erix/Thank_you_bif_brother_Accolade-Excellence-colorful1-1024x543.png"
+                  src="https://res.cloudinary.com/erix-mercedes-llc/image/upload/v1636129761/director/thank_you_big_brother_Colorful-version-Merit-SP-1024x543-min_k33e5d.png"
                   alt="office"
                 />
                 <img
                   className="responsive-img"
-                  src="https://res.cloudinary.com/dwtc6zep7/image/upload/v1635981725/Erix/Thank_you_big_brother_winner.png"
+                  src="https://res.cloudinary.com/erix-mercedes-llc/image/upload/v1636129761/director/Thank_you_big_brother_winner-min_u2krma.png"
                   alt="office"
                 />
                 <img
                   className="responsive-img"
-                  src="https://res.cloudinary.com/dwtc6zep7/image/upload/v1635981725/Erix/Thank_you_big_brotherAccolade-Merit-Logo-Color.png"
+                  src="https://res.cloudinary.com/erix-mercedes-llc/image/upload/v1636129761/director/Thank_you_big_brotherAccolade-Merit-Logo-Color-min_dkq6en.png"
                   alt="office"
                 />
                 <img
                   className="responsive-img"
-                  src="https://res.cloudinary.com/dwtc6zep7/image/upload/v1635981725/Erix/Thank_you_big_brother_2021_Honorable_Mention_CISF.png"
+                  src="https://res.cloudinary.com/erix-mercedes-llc/image/upload/v1636129761/director/Teremana_fianilist-min_hvzg5t.png"
                   alt="office"
                 />
               </div>
@@ -83,7 +82,7 @@ export default class Video extends Component {
             <div className="wrapper-video">
               <video class=" video-style" preload="metadata" controls>
                 <source
-                  src="https://res.cloudinary.com/dwtc6zep7/video/upload/v1635981760/Erix/11092016_JRW_Trailer_v2.mp4#t=1"
+                  src="https://res.cloudinary.com/erix-mercedes-llc/video/upload/v1636129767/director/11092016_JRW_Trailer_v2_h6ww6g.mp4#t=1"
                   type="video/mp4"
                 />
               </video>
@@ -107,14 +106,14 @@ export default class Video extends Component {
             <div className="wrapper-video">
               <video class=" video-style" preload="metadata" controls>
                 <source
-                  src="https://res.cloudinary.com/dwtc6zep7/video/upload/v1635980234/Erix/TERMANA_FINAL_DFFNY_1920x1080.mp4#t=0.2"
+                  src="https://res.cloudinary.com/erix-mercedes-llc/video/upload/v1636129763/director/TERMANA_FINAL_DFFNY_1920x1080_zpnghe.mp4#t=0.2"
                   type="video/mp4"
                 />
               </video>
               <div className="wrapper-slider-img">
                 <img
                   className="responsive-img"
-                  src="https://res.cloudinary.com/dwtc6zep7/image/upload/v1635981725/Erix/Teremana_fianilist.png"
+                  src="https://res.cloudinary.com/erix-mercedes-llc/image/upload/v1636129761/director/Teremana_fianilist-min_hvzg5t.png"
                   alt="office"
                 />
               </div>
@@ -129,7 +128,7 @@ export default class Video extends Component {
             <div className="wrapper-video">
               <video class=" video-style" preload="metadata" controls>
                 <source
-                  src="https://res.cloudinary.com/dwtc6zep7/video/upload/v1635980221/Erix/MATCHA_TEA_DRINKERS.mp4#t=0.2"
+                  src="https://res.cloudinary.com/erix-mercedes-llc/video/upload/v1636129763/director/PURE_LEAF_HEALTH_WELLNESS_as3drd.mp4#t=0.2"
                   type="video/mp4"
                 />
               </video>
@@ -146,7 +145,7 @@ export default class Video extends Component {
             <div className="wrapper-video">
               <video class=" video-style" preload="metadata" controls>
                 <source
-                  src="https://res.cloudinary.com/dwtc6zep7/video/upload/v1635980221/Erix/PURE_LEAF_COFFEE_LOVER.mp4#t=0.2"
+                  src="https://res.cloudinary.com/erix-mercedes-llc/video/upload/v1636129762/director/MATCHA_TEA_DRINKERS_ztw5hn.mp4#t=0.2"
                   type="video/mp4"
                 />
               </video>
@@ -163,7 +162,7 @@ export default class Video extends Component {
             <div className="wrapper-video">
               <video class=" video-style" preload="metadata" controls>
                 <source
-                  src="https://res.cloudinary.com/dwtc6zep7/video/upload/v1635980221/Erix/PURE_LEAF_HEALTH_WELLNESS.mp4#t=0.2"
+                  src="https://res.cloudinary.com/erix-mercedes-llc/video/upload/v1636129762/director/PURE_LEAF_COFFEE_LOVER_u6q1nm.mp4#t=0.2"
                   type="video/mp4"
                 />
               </video>
@@ -180,7 +179,7 @@ export default class Video extends Component {
             <div className="wrapper-video">
               <video class=" video-style" preload="metadata" controls>
                 <source
-                  src="https://res.cloudinary.com/dwtc6zep7/video/upload/v1635980221/Erix/PURE_LEAF_BAKING_ENTHUSIAST.mp4#t=0.2"
+                  src="https://res.cloudinary.com/erix-mercedes-llc/video/upload/v1636129761/director/PURE_LEAF_BAKING_ENTHUSIAST_ttr5va.mp4#t=0.2"
                   type="video/mp4"
                 />
               </video>
