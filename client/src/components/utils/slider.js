@@ -56,17 +56,12 @@ export default class Video extends Component {
                 />
                 <img
                   className="responsive-img"
-                  src="https://res.cloudinary.com/erix-mercedes-llc/image/upload/v1636129761/director/Thank_you_big_brother_winner-min_u2krma.png"
+                  src="https://res.cloudinary.com/erix-mercedes-llc/image/upload/v1636206682/Thank_you_big_brother_winner_white_vft6jg.png"
                   alt="office"
                 />
                 <img
                   className="responsive-img"
                   src="https://res.cloudinary.com/erix-mercedes-llc/image/upload/v1636129761/director/Thank_you_big_brotherAccolade-Merit-Logo-Color-min_dkq6en.png"
-                  alt="office"
-                />
-                <img
-                  className="responsive-img"
-                  src="https://res.cloudinary.com/erix-mercedes-llc/image/upload/v1636129761/director/Teremana_fianilist-min_hvzg5t.png"
                   alt="office"
                 />
               </div>
@@ -119,7 +114,12 @@ export default class Video extends Component {
               <div className="wrapper-slider-img">
                 <img
                   className="responsive-img"
-                  src="https://res.cloudinary.com/erix-mercedes-llc/image/upload/v1636129761/director/Teremana_fianilist-min_hvzg5t.png"
+                  src="https://res.cloudinary.com/erix-mercedes-llc/image/upload/v1636206683/Teremana_fianilist_white_ri6qdr.png"
+                  alt="office"
+                />
+                <img
+                  className="responsive-img dr"
+                  src="https://res.cloudinary.com/erix-mercedes-llc/image/upload/v1636207653/LAUREL_2021_hdb724.png"
                   alt="office"
                 />
               </div>
